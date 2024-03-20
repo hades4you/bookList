@@ -49,9 +49,22 @@ body {
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
+  position: relative;
 }
 
 .book img {
   width: 50%;
   object-fit: cover;
+}
+
+#indexNumber {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  padding: 0.3rem;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  font-size: large;
+  top: 0;
+  left: 0;
 }
